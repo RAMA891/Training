@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.insert-background{
+    background-image: url("./Photo/black.gif");
+    width: 100%;
+    height: 100%;
+}
+.head{
+    text-align: right;
+    font-size: 13px;
+    padding-right: 8%;
+    border-top: 3px solid #2c4152;
+    border-bottom: 1px solid #e0e0e0;
+}
+.color{
+    color: #2c4152;
+    text-decoration: none;
+}
+.color:hover{
+    color: black;
+    text-decoration: underline;
+}
+.insert-image{
+    background-image: url("./Photo/Desktop.jpg");
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+}
+.position{
+    width: 200px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 600px;
+}
