@@ -9,10 +9,16 @@ body {
 }
 .head{
     text-align: right;
-    font-size: 13px;
-    padding-right: 8%;
+    font-size: 14px;
     border-top: 3px solid #2c4152;
     border-bottom: 1px solid #e0e0e0;
+    background: white;
+    height: 36px;
+}
+.head-align{
+    padding-right: 8%;
+    padding-top: 10px;
+    padding-bottom: 12px;
 }
 .color{
     color: #2c4152;
@@ -21,6 +27,13 @@ body {
 .color:hover{
     color: black;
     text-decoration: underline;
+}
+.color-foot{
+    color: #2c4152;
+    text-decoration: none;
+}
+.color-foot:hover{
+    color: black;
 }
 .insert-image{
     background-image: url("./Photo/Desktop.jpg");
@@ -33,4 +46,47 @@ body {
     height: 100px;
     margin-top: 300px;
     margin-left: 600px;
+}
+.foot{
+    width: 100%;
+    height: 110px;
+}
+.foot-end{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(65, 65, 65);
+}
+.foot-text{
+    margin-left: 15vh;
+    margin-right: 15vh;
+    color: white;
+}
+.foot-left{
+    margin-left: 30vh;
+    margin-right: 15vh;
+}
+.foot-center{
+    margin-left: 30vh;
+    margin-right: 15vh;
+}
+.foot-right{
+    margin-left: 15vh;
+    margin-right: 30vh;
+}
+.color-foot-end{
+    color: white;
+    text-decoration: none;
+}
+.color-foot-end:hover{
+    text-decoration: underline;
+}
+.table{
+    font-size: 12px;
+    text-align: left;
+    width: 150vh;
+    height: 50vh;
+}
+.table-add{
+    text-align: left;
+    width: 150vh;
 }
